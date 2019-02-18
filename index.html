@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 minimun-scale=1.0 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>我的第一个bootstrap demo</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .col-md-1,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12 {
+            border: 1px solid red;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-3</div>
+            <div class="col-md-4">.col-md-3</div>
+            <div class="col-md-4">.col-md-3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">.col-md-2</div>
+            <div class="col-md-10">.col-md-10</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">.col-md-2</div>
+            <div class="col-md-9">.col-md-9</div>
+        </div>
+        <!-- 列偏移 -->
+        <div class="row">
+            <div class="col-md-2">.col-md-2</div>
+            <div class="col-md-9 col-md-offset-1">.col-md-9</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-4">.col-md-8</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+                <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+                <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+                <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+                <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+                <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Username</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/jquery-2.2.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>
